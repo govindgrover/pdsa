@@ -4,8 +4,6 @@ class Queue():
 	
 	def enqueue(self, elem) -> None:
 		self.queue.append(elem)
-
-		return
 	
 	def dequeue(self):
 		if not self.isempty():
@@ -15,4 +13,3 @@ class Queue():
 
 	def isempty(self) -> bool:
 		return len(self.queue) == 0
-
